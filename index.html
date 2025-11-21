@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tripadvisor</title>
+
+    <!-- link style sheet -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- icons -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=language"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <!-- navbar -->
+    <div class="navbar">
+      <div class="navbar-s1">
+        <img
+          class="logo-s1__svg"
+          src="./images/logo.svg"
+          alt="tripadvisor-logo"
+        />
+      </div>
+
+      <div class="navbar-s2">
+        <p>Discover</p>
+        <p>Trips</p>
+        <p>Review</p>
+        <p>More</p>
+      </div>
+
+      <div class="navbar-s3">
+        <div class="navbar-s3__inr">
+          <span class="material-symbols-outlined"> language </span>
+          <p>| INR</p>
+        </div>
+
+        <button class="navbar-s3__signinbtn">Sign in</button>
+      </div>
+    </div>
+
+    <!-- search section -->
+
+    <div class="search">
+      <!-- section one -->
+
+      <div class="search-s1"><h1>Where to?</h1></div>
+
+      <!-- section two -->
+
+      <div class="search-s2">
+        <div class="search-s2__one">
+          <i class="fa-regular fa-house" style="color: #000000"></i>
+          <p>Search All</p>
+        </div>
+        <div class="search-s2__two">
+          <i class="fa-solid fa-bed"></i>
+          <p>Hotels</p>
+        </div>
+        <div class="search-s2__three">
+          <i class="fa-regular fa-camera" style="color: #000000"></i>
+          <p>Things to Do</p>
+        </div>
+        <div class="search-s2__four">
+          <i class="fa-solid fa-utensils" style="color: #000000"></i>
+          <p>Restaurants</p>
+        </div>
+      </div>
+
+      <!-- section three -->
+      <div class="search-s3">
+        <div class="search-s3__searchbar">
+          <div>
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <input
+              type="text"
+              placeholder="Places to go, things to do, hotels..."
+            />
+          </div>
+
+          <button class="search-s3__btn">Search</button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
